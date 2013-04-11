@@ -76,7 +76,7 @@ broadly, each App page will contain one or more of the following html elements.
 * Article: a content container within the section. Each section may have multiple articles. It must be placed inside the section and the first article must have the class active in order to make it visible.
 * Header (optional): Each __section__ can contain a __header__ where the section title is displayed. You can also add navigation buttons here.
 * Footer: Each __section__ can contain a __footer__. As with the headers, you can include optional navigation elements here such as buttons.
-* Asides: The Aside element is essentially a side menue. It provides a lateral area which will appear depending on the device (tablet) or hidden (mobile). Its structure is very similar to the section's.
+* Asides: The Aside element is essentially a side menu. 
 
 Example usages are as follows:
 
