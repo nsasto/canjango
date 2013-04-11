@@ -3,13 +3,13 @@ Canjango
 
 ###[Can.js](http://canjs.us) / [JQuery] (jquery.com) / [Lungo] (http://lungo.tapquo.com/) Mobile development framework
 
-Canjango is an experimental, MIT licensed,  mobile framework that mergest the power of canjs' mvc structure, Lungo's mobile UI styling and navigation and the extensibility of jquery.
+Canjango is an experimental, MIT licensed,  mobile framework that merges the power of canjs' mvc structure, Lungo's mobile UI styling and navigation and the extensibility of jquery.
 
 While much of the html syntax is a one-to-one translation from Tapquo's Lungo the framework is inspired by Lungo and their design principles - it is __not__  a migration to canjs and so not all functionality from Lungo will necessarily be available in canjango. Specifically, I've only build canjango to replicate Lungo's visual/navigation components and so any other functionality such as Lungo.Data has no equivalent canjango implementation.
 
 Most importantly, canjango is a jquery based framework and not quo.js which is Tapquo's custom jquery like framwork optimised for mobile devices. Depending on your requirements, this may be a great option (check them out [tapquo.com](http://tapquo.com) )
 
-Canjango is very much a __work in progress__ and any comments/contributions would be appreciates.
+Canjango is very much a __work in progress__ and any comments/contributions would be appreciated.
 
 ##Usage
 
@@ -70,7 +70,7 @@ you can include view snippets as you would with any Canjs views, for example:
 
 the basics of the markup usage is outlined below. for a more detailed overview, I would suggest checking out [lungo's excellent site] (http://lungo.tapquo.com/howto/prototype/).
 
-broadly, the structure of each App page will contain one or more of the following html elements.
+broadly, each App page will contain one or more of the following html elements.
 
 * Section: The main container
 * Article: a content container within the section. Each section may have multiple articles. It must be placed inside the section and the first article must have the class active in order to make it visible.
