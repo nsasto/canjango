@@ -1,7 +1,7 @@
 Canjango
 ========
 
-###[Can.js](http://canjs.us) / [JQuery] (jquery.com) / [Lungo] (http://lungo.tapquo.com/) Mobile development framework
+### [Can.js](http://canjs.us) / [JQuery] (jquery.com) / [Lungo] (http://lungo.tapquo.com/) Mobile development framework
 
 Canjango is an experimental, MIT licensed,  mobile framework that merges the power of canjs' mvc structure, Lungo's mobile UI styling and navigation and the extensibility of jquery.
 
@@ -11,9 +11,9 @@ Most importantly, canjango is a jquery based framework and not quo.js which is T
 
 Canjango is very much a __work in progress__ and any comments/contributions would be appreciated.
 
-##Usage
+## Usage
 
-###Components and Project Structure
+### Components and Project Structure
 
 The canjango library contains the following controllers:
 * Boot.js: This is the core controller that controllers instantiation and general screen transitions. All the controllers below with the exception of notifications are instantiated by the Boot controller.
@@ -23,7 +23,7 @@ The canjango library contains the following controllers:
 * History.js: Cache of browsing history (elements)
 * Notifications.js: Manages modal mobile notifications
 
-###Creating an App
+### Creating an App
 
 Instantiating an app is relatively simple. The canjango components are completely separate from your app. An example app.js file could look something like this:
 
@@ -57,7 +57,7 @@ Instantiating an app is relatively simple. The canjango components are completel
 			new App.Boot(document.body);
 		});
 
-###Markup
+### Markup
 
 The html markup defines for the most part core functionality and elemnent behaviour and follows the design principles established by the tapQuo team. The intention of the html structure is to create an intuitive semantic structure for the entire project, starting from the markup language HTML, through a well organized CSS.
 
@@ -66,7 +66,7 @@ you can include view snippets as you would with any Canjs views, for example:
     <!--  this is a sub view reference in init.ejs -->  
     <%== can.view.render( 'app/home/views/demo1', {data: data} ) %>
 
-###Getting started with markup
+### Getting started with markup
 
 the basics of the markup usage is outlined below. for a more detailed overview, I would suggest checking out [lungo's excellent site] (http://lungo.tapquo.com/howto/prototype/).
 
