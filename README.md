@@ -128,3 +128,6 @@ An aside structure is very similar to a standard section:
             </ul>
         </article>
     </aside>
+
+### Authors
+Nathan Sasto
